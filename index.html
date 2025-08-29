@@ -479,6 +479,7 @@
             document.getElementById('user-name').textContent = `User${Math.floor(1000 + Math.random() * 9000)}`;
             
             updateUI();
+          show_9791080().then(() => {
         }
         
         // Update UI elements
@@ -578,12 +579,5 @@
 </html>
 
 
-// Rewarded interstitial
-
-show_9791080().then(() => {
-    // You need to add your user reward function here, which will be executed after the user watches the ad.
-    // For more details, please refer to the detailed instructions.
-    alert('You have seen an ad!');
-})
 
         
